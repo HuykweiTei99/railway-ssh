@@ -10,6 +10,13 @@ RUN apt update && apt install -y \
     unzip \
     sudo \
     python3 \
+    nano \
+    sudo \
+    ufw \
+    systemctl \
+    htop \
+    btop \
+    neofetch \
     && mkdir /var/run/sshd
 
 # -----------------------------
