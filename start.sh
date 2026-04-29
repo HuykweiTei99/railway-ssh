@@ -7,7 +7,7 @@ echo "=== START SSH ==="
 
 echo "=== START NGROK ==="
 # thêm token của bạn
-ngrok config add-authtoken YOUR_NGROK_TOKEN
+ngrok config add-authtoken 2T8riBjhCDBVhDMHGMBQO6ndiJM_44pFVKWYni7pdinqwGJf8
 
 # mở SSH qua ngrok
 ngrok tcp 22 > /tmp/ngrok.log &
